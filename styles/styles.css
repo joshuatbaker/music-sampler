@@ -1,0 +1,23 @@
+body {
+    font-family: 'Quicksand', 'Tahoma', 'Verdana', sans-serif;
+    background: #fff;
+    color: #000;
+    margin: auto;
+}
+#container {
+  max-width: 800px;
+  margin: 30px;
+}
+footer {
+  text-align: center;
+}
+
+/* media */
+@media screen and (max-width: 670px) {
+  #container{
+    max-width: 500px;
+  }
+  #largeimage{
+    max-width: 500px;
+  }
+}
